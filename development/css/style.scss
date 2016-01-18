@@ -1,0 +1,14 @@
+body {
+  position: relative;
+  background: yellow;
+  overflow: hidden;
+  font-family: "Chaparral Pro Regular";
+  font-size: 15pt; }
+
+.container:before,
+.container:after {
+  content: "";
+  display: table; }
+
+.container:after {
+  clear: both; }
